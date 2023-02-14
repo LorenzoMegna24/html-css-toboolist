@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-li{
-  margin-left: 1em;
-}
 body{
   background-color: rgb(246,248,249);
   font-family: 'Roboto', sans-serif;
@@ -58,7 +55,7 @@ ul li{
 }
 ul li ul li{
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 0;
 }
 #group-task::before{
 content: "\2193";
