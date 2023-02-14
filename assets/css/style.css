@@ -32,14 +32,16 @@ main{
 }
 .add-task{
   background-color: rgb(65,170,240);
-  border-color: rgb(65,170,240);
+  border: solid 3px rgb(65,170,240);
   font-size: 20px;
   padding: 8px;
   color: white;
   border-radius: 8px;
 }
 .add-section{
-  color: gray;
+  background-color: white;
+  color: rgb(206, 208, 208);
+  border: solid 3px;
   font-size: 20px;
   padding: 8px;
   border-radius: 8px;
