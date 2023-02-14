@@ -7,7 +7,7 @@ li{
   margin-left: 1em;
 }
 body{
-  background-color: gray;
+  background-color: rgb(246,248,249);
 }
 #logo{
   vertical-align: middle;
@@ -27,11 +27,11 @@ main{
 }
 .buttons-container{
   background-color: white;
-  padding: 10px 40px;
+  padding: 15px 40px;
 }
 .add-task{
-  background-color: aqua;
-  border-color: aqua;
+  background-color: rgb(65,170,240);
+  border-color: rgb(65,170,240);
   font-size: 20px;
   padding: 8px;
   color: white;
@@ -45,7 +45,35 @@ main{
 }
 .tasks-container{
   background-color: white;
+  margin: 5px 0;
+  padding: 20px;
 }
 ul li{
   list-style-type: none;
+  font-size: 30px;
+  padding: 15px;
+}
+ul li ul li{
+  font-size: 20px;
+  padding: 10px;
+}
+#group-task::before{
+content: "\2193";
+color: black;
+}
+#done::before{
+  content: "\2714";
+  color: green;  
+  border: solid 1px green;  
+  padding: 2px 4px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+#not-done::before{
+  content: "\2718";
+  color: red;
+  border: solid 1px red;
+  padding: 2px 4px;
+  border-radius: 50%;
+  margin-right: 8px;
 }
