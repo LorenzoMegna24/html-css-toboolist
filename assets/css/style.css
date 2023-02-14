@@ -10,9 +10,33 @@ body{
   vertical-align: middle;
 }
 #title{
-  font-size: 40px;
+  font-size: 60px;
 }
 header{
   background-color: white;
   padding: 10px;
+  margin-bottom: 50px;
+  
+}
+main{
+  width: 60%;
+  margin: 0 auto;
+}
+.buttons-container{
+  background-color: white;
+  padding: 10px 40px;
+}
+.add-task{
+  background-color: aqua;
+  border-color: aqua;
+  font-size: 20px;
+  padding: 8px;
+  color: white;
+  border-radius: 8px;
+}
+.add-section{
+  color: gray;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 8px;
 }
