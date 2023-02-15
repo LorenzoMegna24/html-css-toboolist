@@ -60,14 +60,14 @@ ul li ul li{
   padding: 10px 0;
 }
 #group-task::before{
-content: "\2193";
+content: "\25BE";
 color: black;
 }
 #done::before{
   content: "\2714";
   color: green;  
   border: solid 1px green;  
-  padding: 2px 4px;
+  padding: 1px 5px;
   border-radius: 50%;
   margin-right: 8px;
 }
@@ -75,7 +75,7 @@ color: black;
   content: "\2718";
   color: red;
   border: solid 1px red;
-  padding: 2px 4px;
+  padding: 1px 5px;
   border-radius: 50%;
   margin-right: 8px;
 }
